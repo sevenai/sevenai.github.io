@@ -1,0 +1,138 @@
+@font-face{
+	font-family:'roboto-light';
+	src:url(../fonts/Roboto-Light.TTF);
+}
+
+@font-face{
+	font-family:'roboto-bold';
+	src:url(../fonts/Roboto-Bold.TTF);
+}
+
+@font-face{
+	font-family:'billy';
+	src:url(../fonts/billyotf);
+}
+
+body{
+	background-image:url(../images/gradient_background-20.jpg); /* links the image as my background */
+	background-repeat: no-repeat; /*imgae will repeat vetically if it's repeat-y or horizontally if it's -x */
+	background-size: 100%;
+}
+
+#container{ /* this is the style for my container which holds all my html elements */
+	position:relative;
+	width:1300px;
+	margin:0 auto;
+	top:0px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+}
+
+#book{
+	position: relative;
+	width:1300px;
+	display: block;
+    margin:0 auto;
+	top:0px;
+}
+
+.home_botton{ /* link botton to back to home */
+	position: absolute;
+	display:block;
+	width:175px;
+	height:109px;
+	top:380px;
+	left:-80px;
+	background:url('../images/home_botton.png');
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top;
+}
+
+.home_botton:hover{
+	background-position:bottom;
+}
+
+#home_tag{
+	position:absolute;
+	font-family:'billy';
+	font-size:24px;
+	width:175px;
+	top:405px;
+	left:-20px;
+}
+
+.start_botton{ /* link botton to restoration beam */
+	position:absolute;
+	display:block;
+	width:175px;
+	height:109px;
+	top:380px;
+	left:1200px;
+	background:url('../images/red_postit_animation.png');
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top;
+}
+
+.start_botton:hover{
+	background-position:bottom;
+}
+
+#start_tag{
+	position:absolute;
+	font-family:'billy';
+	font-size:24px;
+	width:175px;
+	top:405px;
+	left:1280px;
+}
+
+#nobita{
+	position: absolute;
+	width:200px;
+	display: block;
+    margin:0 auto;
+	top:480px;
+	left:120px;
+}
+
+#nobita_quote{
+	position: absolute;
+	width:200px;
+	display: block;
+    margin:0 auto;
+	top:340px;
+	left:200px;
+}
+
+#direction{
+	position:absolute;
+  	font-family:'roboto-light';
+  	font-size:17px;
+  	line-height:27px;
+  	text-align: justify;
+	width:500px;
+	height:200px;
+	top:140px;
+	left:690px;
+}
+
+#nobita_characteristic{
+	position: absolute;
+	width:530px;
+	display: block;
+    margin:0 auto;
+	top:380px;
+	left:680px;
+}
+
+#doraemon_characteristic{
+	position: absolute;
+	width:530px;
+	display: block;
+    margin:0 auto;
+	top:620px;
+	left:680px;
+}

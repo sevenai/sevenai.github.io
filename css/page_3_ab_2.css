@@ -1,0 +1,76 @@
+@font-face{
+	font-family:'roboto-light';
+	src:url(../fonts/Roboto-Light.TTF);
+}
+
+@font-face{
+	font-family:'roboto-bold';
+	src:url(../fonts/Roboto-Bold.TTF);
+}
+
+@font-face{
+	font-family:'billy';
+	src:url(../fonts/billyotf);
+}
+
+body{
+	background-image:url(../images/gradient_background-20.jpg); /* links the image as my background */
+	background-repeat: no-repeat; /*imgae will repeat vetically if it's repeat-y or horizontally if it's -x */
+	background-size: 100%;
+}
+
+#container{ /* this is the style for my container which holds all my html elements */
+	position:absolute;
+	width:600px;
+	top:30px;
+	left: 50%;
+	margin-left: -300px;
+}
+
+#cover{
+	position: center absolute;
+	background-size:100%;;
+	display: block;
+    margin:0 auto;
+	top:0px;
+	left:50%;
+}
+
+.home_botton{ /* link botton to restoration beam */
+	position:absolute;
+	display:block;
+	width:175px;
+	height:109px;
+	top:490px;
+	left:-120px;
+	background:url('../images/home_botton.png');
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top;
+	z-index:-1;
+}
+
+.home_botton:hover{
+	background-position:bottom;
+}
+
+#home_tag{
+	position:absolute;
+	font-family:'billy';
+	font-size:24px;
+	width:175px;
+	top:515px;
+	left:-55px;
+}
+
+#ending{
+	position:absolute;
+  	font-family:'roboto-light';
+  	font-size:24px;
+  	line-height:34px;
+  	text-align: justify;
+	width:400px;
+	height:200px;
+	top:70px;
+	left:110px;
+}

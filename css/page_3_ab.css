@@ -1,0 +1,232 @@
+@font-face{
+	font-family:'roboto-light';
+	src:url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face{
+	font-family:'roboto-bold';
+	src:url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face{
+	font-family:'billy';
+	src:url(../fonts/billy.ttf);
+}
+
+body{
+	background-image:url(../images/gradient_background-20.jpg); /* links the image as my background */
+	background-repeat: no-repeat; /*imgae will repeat vetically if it's repeat-y or horizontally if it's -x */
+	background-size: 100%;
+}
+
+#container{ /* this is the style for my container which holds all my html elements */
+	position:relative;
+	width:1300px;
+	height:800px;
+	margin:0 auto;
+	top:0px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+}
+
+#book{
+	position: relative;
+	width:1300px;
+	display: block;
+    margin:0 auto;
+	top:0px;
+}
+
+.home_botton{ /* link botton to back to home */
+	position: absolute;
+	display:block;
+	width:175px;
+	height:109px;
+	top:390px;
+	left:-80px;
+	background:url('../images/home_botton.png');
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top;
+}
+
+.home_botton:hover{
+	background-position:bottom;
+}
+
+#home_tag{
+	position:absolute;
+	font-family:'billy';
+	font-size:24px;
+	width:175px;
+	top:415px;
+	left:-20px;
+}
+
+.red_botton{ /* link botton to restoration beam */
+	position:absolute;
+	display:block;
+	width:175px;
+	height:109px;
+	top:215px;
+	left:1200px;
+	background:url('../images/red_postit_animation.png');
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top;
+}
+
+.red_botton:hover{
+	background-position:bottom;
+}
+
+#red_tag{
+	position:absolute;
+	font-family:'billy';
+	font-size:24px;
+	width:175px;
+	top:240px;
+	left:1260px;
+}
+
+.blue_botton{  /* link botton to kobe abe */
+	position:absolute;
+	display:block;
+	width:175px;
+	height:109px;
+	top:575px;
+	left:1200px;
+	background:url('../images/blue_postit_animation.png');
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top;
+}
+
+.blue_botton:hover{
+	background-position:bottom;
+}
+
+#blue_tag{
+	position:absolute;
+	font-family:'billy';
+	font-size:24px;
+	width:175px;
+	top:600px;
+	left:1210px;
+}
+
+#question{
+	position:absolute;
+  	font-family:'roboto-light';
+  	font-size:18px;
+  	line-height:26px;
+  	text-align: justify;
+	width:400px;
+	height:200px;
+	top:340px;
+	left:150px;
+}
+
+#choice_1{
+	position:absolute;
+  	font-family:'roboto-light';
+  	font-size:17px;
+  	line-height:25px;
+  	text-align: justify;
+	width:500px;
+	top:80px;
+	left:690px;
+}
+
+#gif_box_1{
+	position:absolute;
+	width:225px;
+	height:185px;
+	border:1px black solid;
+	box-shadow: 1px 1px 3px #888888;
+	top:170px;
+	left:690px;
+}
+
+#ns-badges_gif{
+	position: absolute;
+	width:215px;
+	display: block;
+    margin:0 auto;
+	top:25px;
+	left:5px;
+}
+
+#ns-badges_intro{
+	position: absolute;
+	width:200px;
+	display: block;
+    margin:0 auto;
+	top:190px;
+	left:990px;
+}
+
+#ns-badges{
+	position: absolute;
+	width:110px;
+	display: block;
+    margin:0 auto;
+	top:260px;
+	left:920px;
+}
+
+#or{
+	position: absolute;
+	width:600px;
+	top:415px;
+	left:650px;
+}
+
+#choice_2{
+	position:absolute;
+  	font-family:'roboto-light';
+  	font-size:17px;
+  	line-height:25px;
+  	text-align: justify;
+	width:500px;
+	top:490px;
+	left:690px;
+}
+
+#gif_box_2{
+	position:absolute;
+	width:225px;
+	height:185px;
+	border:1px black solid;
+	box-shadow: 1px 1px 3px #888888;
+	top:595px;
+	left:970px;
+}
+
+#moonbeam_torchlight_gif{
+	position: absolute;
+	width:215px;
+	display: block;
+    margin:0 auto;
+	top:25px;
+	left:5px;
+}
+
+#moonbeam_torchlight_intro{
+	position: absolute;
+	width:190px;
+	display: block;
+    margin:0 auto;
+	top:670px;
+	left:690px;
+}
+
+#moonbeam_torchlight{
+	position: absolute;
+	width:120px;
+	display: block;
+    margin:0 auto;
+	top:620px;
+	left:850px;
+}
